@@ -19,6 +19,9 @@ set splitright
 " Disable netrw.
 let g:loaded_netrwPlugin = 1
 
+" Default TeX flavor.
+let g:tex_flavor = "latex"
+
 " MAPPINGS {{{1
 
 " Buffer navigation.
