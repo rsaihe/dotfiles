@@ -14,3 +14,6 @@ set undofile
 " Intuitive split directions.
 set splitbelow
 set splitright
+
+" Disable netrw.
+let g:loaded_netrwPlugin = 1
