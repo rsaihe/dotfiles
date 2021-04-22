@@ -17,3 +17,11 @@ set splitright
 
 " Disable netrw.
 let g:loaded_netrwPlugin = 1
+
+" MAPPINGS {{{1
+
+" Buffer navigation.
+nnoremap gb :ls<CR>:b
+
+" Clear highlighting.
+nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
