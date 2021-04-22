@@ -16,6 +16,10 @@ set undofile
 set splitbelow
 set splitright
 
+" Text width.
+set colorcolumn=+1
+set textwidth=80
+
 " Disable netrw.
 let g:loaded_netrwPlugin = 1
 
