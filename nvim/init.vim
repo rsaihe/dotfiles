@@ -1,6 +1,6 @@
 " COLORS {{{1
 set termguicolors
-colorscheme base16-gruvbox-dark-hard
+colorscheme apprentice
 
 " INDENTATION {{{1
 set expandtab
