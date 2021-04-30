@@ -33,3 +33,11 @@ nnoremap gb :ls<CR>:b
 
 " Clear highlighting.
 nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
+
+" Trim trailing whitespace.
+function! TrimWhitespace()
+    let l:save = winsaveview()
+    keeppatterns %s/\s\+$//e
+    call winrestview(l:save)
+endfunction
+command! TrimWhitespace call TrimWhitespace()
