@@ -26,6 +26,9 @@ let g:loaded_netrwPlugin = 1
 " Default TeX flavor.
 let g:tex_flavor = "latex"
 
+" Disable automatic formatting.
+let g:zig_fmt_autosave = 0
+
 " MAPPINGS {{{1
 
 " Buffer navigation.
