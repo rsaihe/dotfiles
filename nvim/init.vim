@@ -1,6 +1,6 @@
 " COLORS {{{1
 set termguicolors
-colorscheme apprentice
+colorscheme iceberg
 
 " INDENTATION {{{1
 set expandtab
